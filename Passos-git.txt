@@ -1,0 +1,19 @@
+git clone https://github.com/Lluis-Ferreres/Prova-2324.git
+
+cd Prova-2324/
+
+git add .
+git status
+git add .
+git status
+
+git config list
+git config --list
+
+git config --global user.name "Lluis-Ferreres"
+git config --global user.email "lferrere@iesesteveterradas.cat"
+git push
+
+git add .
+git commit
+git push

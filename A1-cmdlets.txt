@@ -1,0 +1,20 @@
+Activitat 1 - Primers cmdlets
+Comprova el funcionament dels següents cmdlets, digues per a què s'utilitzen i captura algun exemple (ordre + resultat). Afegeix en els casos que sigui possible, l'equivalent bash i cmd:
+1.- $PSVersionTable: Comprova la versió de powershell que utilitzem. Equivalent amb bash: bash --version
+2.- get-childitem: mostra el contingut d'un directori o ruta concreta. Equivalent bash: ls / equivalent cmd: dir
+3.- set-location
+4.- get-command
+5.- get-command -module storage
+6.- get-executionpolicy
+7.- set-executionpolicy unrestricted
+8.- get-help
+9.- update-help
+10.- get-localuser
+11.- (get-localuser).count
+12.- wmic product get name,version
+13.- winget install --id microsoft.powershell --source winget
+14.- get-history
+15.- Get-WmiObject -class win32_product | Where-Object { $_.name -like "Power*" }
+16.- (Get-WmiObject -class win32_product | Where-Object { $_.name -like "Power*" }).uninstall()
+
+Penja un document pdf amb les captures de l'execució de les ordres i les respostes que es demanen a l'enunciat. L'exercici s'anomenarà A1-MD-UF5.cognom-ini.pdf
